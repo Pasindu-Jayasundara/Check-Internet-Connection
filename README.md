@@ -28,7 +28,7 @@ This project is to develop a .jar library to check the internet availability.
    boolean available = Internet.isAvailable();
    
    ```
-    ii) .isAvailable() </br>
+    ii) .isAvailable(hostName, portNumber) </br>
     > This method can be used to determine whether have the internet connection or not. Can be used to check with a specific server.
     
    ```java
